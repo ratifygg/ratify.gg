@@ -1,7 +1,7 @@
 <template>
   <section class="home">
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-      <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
+      <div class="flex flex-col w-full xl:w-5/5 justify-center lg:items-start overflow-y-hidden">
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
 
         <!-- <div class="mb-12 xl:mb-0">
@@ -33,13 +33,13 @@
           </form>
         </div>
       </div> -->
-      <div class="flex flex-col w-full xl:w-2/5">
+      <!-- <div class="flex flex-col w-full xl:w-2/5">
         <img
           alt="Hero"
           class="rounded shadow-xl"
           src="https://phenomenal-custard-76e941.netlify.app/images/uploads/output-onlinepngtools.png"
         />
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
