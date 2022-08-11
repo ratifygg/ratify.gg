@@ -4,7 +4,7 @@
       <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
 
-        <div class="mb-12 xl:mb-0">
+        <!-- <div class="mb-12 xl:mb-0">
           <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
 
           <form
@@ -32,12 +32,12 @@
             </button>
           </form>
         </div>
-      </div>
+      </div> -->
       <div class="flex flex-col w-full xl:w-2/5">
         <img
           alt="Hero"
           class="rounded shadow-xl"
-          src="https://source.unsplash.com/random/720x400"
+          src="app/static/images/uploads/output-onlinepngtools.png"
         />
       </div>
     </div>
