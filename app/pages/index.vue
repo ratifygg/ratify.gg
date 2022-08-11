@@ -37,7 +37,7 @@
         <img
           alt="Hero"
           class="rounded shadow-xl"
-          src="app/static/images/uploads/output-onlinepngtools.png"
+          src="https://phenomenal-custard-76e941.netlify.app/images/uploads/output-onlinepngtools.png"
         />
       </div>
     </div>
